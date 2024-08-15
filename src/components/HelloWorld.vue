@@ -40,7 +40,7 @@ const showModal = ref(true);
       <h2>验证码</h2>
       <div class="card-body">
         <p>等待验证码....</p>
-        <CountTime :initialTime="5" /> <!-- 300秒（5分钟）的倒计时 -->
+        <CountTime :initialTime="30" /> <!-- 300秒（5分钟）的倒计时 -->
         <h5 style="color: #ff0000">（倒计时结束验证码没显示请联系淘宝客服）</h5>
         <h5 style="color: #ff0000">（显示数字验证码之后再点复制验证码）</h5>
       </div>
